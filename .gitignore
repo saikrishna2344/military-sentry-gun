@@ -1,52 +1,46 @@
-# Prerequisites
-*.d
-
-# Object files
+# Ignore Arduino build files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.d
+*.elf
 *.hex
+*.bin
+*.eep
+*.map
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Ignore compiled object files
+*.obj
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore log files
+*.log
+*.txt
+
+# Ignore temporary files created by the IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# Ignore Arduino libraries folder
+/libraries/
+
+# Ignore all HTML files, in case you're using them locally
+*.html
